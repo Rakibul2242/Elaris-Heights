@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elaris Heights</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="font-sans text-gray-800">
+  <!-- 1. Hero Section -->
+  <section class="relative h-screen bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');">
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10 flex flex-col justify-center items-center h-full text-center px-6">
+      <h1 class="text-white text-4xl md:text-6xl font-bold mb-4">Elevated Living at Elaris Heights</h1>
+      <p class="text-white text-lg md:text-2xl mb-6 max-w-2xl">Premium 2 & 3 BHK Residences with Breathtaking Views and Smart Living Features</p>
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="#contact" class="bg-white text-black font-semibold py-3 px-6 rounded-full hover:bg-gray-100 transition duration-300">Book a Site Visit</a>
+        <a href="#pricing" class="bg-transparent border border-white text-white font-semibold py-3 px-6 rounded-full hover:bg-white hover:text-black transition duration-300">Download Brochure</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Project Overview -->
+  <section class="py-16 px-6 bg-gray-100 text-center" id="overview">
+    <h2 class="text-3xl font-bold mb-6">Why Choose Elaris Heights?</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div><strong>📍 Prime Location:</strong> 10 mins from City Center</div>
+      <div><strong>🏠 Smart Homes:</strong> Modern automation</div>
+      <div><strong>🌇 Rooftop Infinity Pool:</strong> Plus Sky Lounge</div>
+      <div><strong>🛡 Gated Security:</strong> 3-Tier system</div>
+      <div><strong>🌿 Open Spaces:</strong> 80% green areas</div>
+    </div>
+  </section>
+
+<!-- 3. Image Gallery / Virtual Tour -->
+<section class="py-16 px-6 bg-gray-100" id="gallery">
+  <h2 class="text-3xl font-bold text-center mb-8">Take a Closer Look</h2>
+  <div class="max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <!-- Image 1 -->
+      <div class="group relative overflow-hidden rounded-lg shadow-lg">
+        <img src="https://images.unsplash.com/photo-1589927986089-35812388d1f4" alt="Gallery Image 1" class="w-full h-full object-cover group-hover:opacity-80 transition-opacity duration-300">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <button class="text-white text-lg">View Full Image</button>
+        </div>
+      </div>
+
+      <!-- Image 2 -->
+      <div class="group relative overflow-hidden rounded-lg shadow-lg">
+        <img src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c" alt="Gallery Image 2" class="w-full h-full object-cover group-hover:opacity-80 transition-opacity duration-300">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <button class="text-white text-lg">View Full Image</button>
+        </div>
+      </div>
+
+      <!-- Image 3 -->
+      <div class="group relative overflow-hidden rounded-lg shadow-lg">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Gallery Image 3" class="w-full h-full object-cover group-hover:opacity-80 transition-opacity duration-300">
+        <div class="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <button class="text-white text-lg">View Full Image</button>
+        </div>
+      </div>
+
+      <!-- Add more images here if needed -->
+    </div>
+  </div>
+</section>
+
+
+
+<!-- 4. Floor Plans -->
+<section class="py-16 px-6 bg-gray-100" id="floorplans">
+  <h2 class="text-3xl font-bold text-center mb-8">Designed to Fit Every Lifestyle</h2>
+  <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    <div class="bg-white p-6 shadow rounded-lg">
+      <h3 class="text-xl font-bold mb-2">2 BHK</h3>
+      <img src="https://via.placeholder.com/600x400?text=2+BHK+Floor+Plan" alt="2 BHK Floor Plan" class="mb-2 rounded">
+      <p>900–1100 sq.ft</p>
+      <p>From $199,000</p>
+      <a href="#contact" class="inline-block mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Enquire Now</a>
+    </div>
+    <div class="bg-white p-6 shadow rounded-lg">
+      <h3 class="text-xl font-bold mb-2">3 BHK</h3>
+      <img src="https://via.placeholder.com/600x400?text=3+BHK+Floor+Plan" alt="3 BHK Floor Plan" class="mb-2 rounded">
+      <p>1300–1500 sq.ft</p>
+      <p>From $249,000</p>
+      <a href="#contact" class="inline-block mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Enquire Now</a>
+    </div>
+    <div class="bg-white p-6 shadow rounded-lg">
+      <h3 class="text-xl font-bold mb-2">Penthouse</h3>
+      <img src="https://via.placeholder.com/600x400?text=Penthouse+Floor+Plan" alt="Penthouse Floor Plan" class="mb-2 rounded">
+      <p>2000+ sq.ft</p>
+      <p>From $399,000</p>
+      <a href="#contact" class="inline-block mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Enquire Now</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- 5. Location & Connectivity -->
+  <section class="py-16 px-6" id="location">
+    <h2 class="text-3xl font-bold text-center mb-6">At the Center of It All</h2>
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+      <iframe class="w-full h-64 rounded shadow" src="https://maps.google.com/maps?q=central%20park&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+      <ul class="space-y-4 text-lg">
+        <li>🚇 5 mins to Metro Station</li>
+        <li>🏢 10 mins to Business District</li>
+        <li>✈️ 15 mins to Airport</li>
+        <li>🏫 Near Schools, Hospitals & Malls</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 6. Amenities -->
+  <section class="py-16 px-6 bg-gray-100" id="amenities">
+    <h2 class="text-3xl font-bold text-center mb-8">More Than Just a Home</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto text-center">
+      <div>🌆 Rooftop Lounge</div>
+      <div>💪 Gym & Yoga Studio</div>
+      <div>🎠 Kid’s Play Area</div>
+      <div>⚡ EV Charging</div>
+      <div>🏃‍♂️ Jogging Track</div>
+      <div>🏢 Clubhouse & Co-Work</div>
+      <div>🐾 Pet-Friendly Zones</div>
+    </div>
+  </section>
+
+<!-- 7. About the Developer -->
+<section class="py-16 px-6 bg-white" id="developer">
+  <h2 class="text-3xl font-bold text-center mb-8">Crafted by a Trusted Name</h2>
+  <div class="max-w-4xl mx-auto text-center">
+    <img src="https://via.placeholder.com/150x100?text=Developer+Logo" alt="Developer Logo" class="mx-auto mb-4">
+    <p class="text-lg mb-4">With over 25 years of excellence in real estate development, our team at Elaris Heights is committed to creating homes that redefine luxury living.</p>
+    <p class="text-lg mb-4">We have completed more than 30 projects, including residential, commercial, and mixed-use developments. Each project showcases our dedication to quality, innovation, and sustainability.</p>
+    <a href="#" class="inline-block mt-4 text-blue-600 hover:text-blue-700">Learn More About Us</a>
+  </div>
+</section>
+
+  <!-- 8. Pricing & Offers -->
+  <section class="py-16 px-6 bg-yellow-50" id="pricing">
+    <h2 class="text-3xl font-bold text-center mb-6">Limited-Time Pre-Launch Offers</h2>
+    <div class="text-center">
+      <p class="text-xl mb-2">Starting from <strong>$199,000</strong></p>
+      <p>Easy 10:80:10 Payment Plan</p>
+      <p>No Floor Rise Charges</p>
+      <a href="#contact" class="inline-block mt-6 bg-blue-600 text-white py-3 px-6 rounded-full hover:bg-blue-700">Get Price Sheet</a>
+    </div>
+  </section>
+
+  <!-- 9. Testimonials -->
+  <section class="py-16 px-6" id="testimonials">
+    <h2 class="text-3xl font-bold text-center mb-8">What Our Buyers Say</h2>
+    <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 shadow rounded-lg">
+        <p>"Elaris Heights exceeded my expectations. The smart home features are fantastic!"</p>
+        <p class="mt-2 font-semibold">— Aarti S.</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded-lg">
+        <p>"Love the rooftop amenities and the peaceful green spaces. Highly recommended."</p>
+        <p class="mt-2 font-semibold">— Rohit M.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. FAQ -->
+  <section class="py-16 px-6 bg-gray-100" id="faq">
+    <h2 class="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+    <div class="max-w-3xl mx-auto space-y-6">
+      <div>
+        <strong>Q: What is the possession date?</strong>
+        <p>A: December 2026</p>
+      </div>
+      <div>
+        <strong>Q: Are home loans available?</strong>
+        <p>A: Yes, from major banks</p>
+      </div>
+      <div>
+        <strong>Q: Is this RERA-approved?</strong>
+        <p>A: Yes, RERA No. ABC123456</p>
+      </div>
+      <div>
+        <strong>Q: Can I visit a model flat?</strong>
+        <p>A: Yes, book a site visit anytime</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. Contact Form -->
+  <section class="py-16 px-6" id="contact">
+    <h2 class="text-3xl font-bold text-center mb-6">Interested in Elaris Heights?</h2>
+    <p class="text-center mb-8">Schedule a call or visit today.</p>
+    <form class="max-w-3xl mx-auto grid gap-4">
+      <input type="text" placeholder="Full Name" class="border p-3 rounded">
+      <input type="tel" placeholder="Phone Number" class="border p-3 rounded">
+      <input type="email" placeholder="Email" class="border p-3 rounded">
+      <input type="text" placeholder="Preferred Time to Call" class="border p-3 rounded">
+      <textarea placeholder="Message (optional)" class="border p-3 rounded"></textarea>
+      <button type="submit" class="bg-blue-600 text-white py-3 px-6 rounded hover:bg-blue-700">Submit & Get Brochure</button>
+    </form>
+  </section>
+
+  <!-- 12. Footer -->
+  <footer class="bg-gray-800 text-white py-8 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
+      <div>
+        <h3 class="font-bold mb-2">Quick Links</h3>
+        <ul>
+          <li><a href="#floorplans" class="hover:underline">Floor Plans</a></li>
+          <li><a href="#amenities" class="hover:underline">Amenities</a></li>
+          <li><a href="#location" class="hover:underline">Location</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold mb-2">Legal</h3>
+        <p>Privacy Policy | Terms of Use</p>
+        <p>RERA No. ABC123456</p>
+      </div>
+      <div>
+        <h3 class="font-bold mb-2">Follow Us</h3>
+        <p>Social Icons (Facebook, Instagram, LinkedIn...)</p>
+      </div>
+    </div>
+    <p class="text-center mt-6">&copy; 2025 Elaris Heights. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
